@@ -75,7 +75,6 @@ objects:
           vaultproject.io/policies: default,secret_readonly,nats-server
           vaultproject.io/ttl: "24h"
       spec:
-        
         containers:
         - name: ${NAME}
           image: ${NAME}           
